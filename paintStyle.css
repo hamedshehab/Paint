@@ -1,0 +1,45 @@
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(5, 100px);
+    grid-gap: 10px;
+  }
+
+  .grid > div {
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+    cursor: pointer;
+  }
+
+  .btn-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .btn {
+    padding: 10px 20px;
+    margin: 0 5px;
+    font-size: 16px;
+    background-color: #ccc;
+    color: #333;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .btn:hover {
+    background-color: #999;
+  }
